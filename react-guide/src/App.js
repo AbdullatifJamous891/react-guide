@@ -35,12 +35,6 @@ class App extends Component {
 
   togglePersonHandler = () => {
     this.setState({
-      persons: [
-        { name: "Abdullatif", age: 30 },
-        { name: "Omer", age: 25 },
-        { name: "Emad Eddin", age: 20 }
-      ],
-      companies: "technologies company..",
       showPersons: !this.state.showPersons
     });
   };
