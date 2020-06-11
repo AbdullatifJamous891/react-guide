@@ -19,6 +19,11 @@ class Persons extends Component {
     console.log(snapshot);
   }
 
+  componentWillUnmount() {
+    //do some cleanup work, it's work when component get removed from a DOM
+    console.log("[Persons.js] componentWillUnmount");
+  }
+
   render() {
     console.log("[persons.js] rendering...");
 
